@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\delay.o"
+".\objects\usart.o"
+".\objects\timer.o"
+".\objects\task.o"
+".\objects\watchdog.o"
+".\objects\clkconfig.o"
+".\objects\led.o"
+".\objects\key.o"
+".\objects\spwm.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\DSP\Lib\ARM\arm_cortexM3l_math.lib"
+".\objects\misc.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_flash.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_iwdg.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\stm32f10x_wwdg.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\SPWM三相六路互补输出+死区+调压.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SPWM三相六路互补输出+死区+调压.map" -o .\Objects\SPWM三相六路互补输出+死区+调压.axf
